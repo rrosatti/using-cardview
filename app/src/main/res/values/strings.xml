@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Using CardView</string>
+
+    <!-- Project strings -->
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favorite">Add to Favorites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LET\'S PLAY IT\!</string>
+    <string name="backdrop_subtitle">Top 10 albums of all time</string>
 </resources>
