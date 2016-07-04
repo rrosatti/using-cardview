@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.example.rodri.usingcardview.GridSpacingItemDecoration;
 import com.example.rodri.usingcardview.R;
 import com.example.rodri.usingcardview.adapter.AlbumsAdapter;
 import com.example.rodri.usingcardview.model.Album;
@@ -118,19 +119,6 @@ public class MainActivity extends AppCompatActivity {
 
         albumsAdapter.notifyDataSetChanged();
     }
-
-    public class GridSpacingItemDecoration extends RecyclerView.ItemDecoration {
-
-        private int spanCount;
-        private int spacing;
-        private boolean includeEdge;
-
-        public GridSpacingItemDecoration(int spanCount, int spacing, boolean includeEdge) {
-            this.spanCount = spanCount;
-            this.spacing = spacing;
-            this.includeEdge = includeEdge;
-        }
-
 
 
     private int dpToPx(int dp) {
